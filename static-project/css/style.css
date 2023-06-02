@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../image/banner.png);
+
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.header img{
+    height: 55px;
+
+}
+
+.ps-10{
+    padding-left: 6rem;
+}
+
+.ps-16{
+    padding-left: 16rem;
+}
+
+.menu ul li{
+    padding-right: 25px;
+}
+
+.menu ul li a{
+    color: #fff;
+}
+
+.active, .menu ul li:hover a{
+    color: red !important;
+}
+
+
+.menu ul li::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: red;
+    display: block;
+    transition: .5s;
+}
+
+.menu ul li:hover::after{
+    width: 70%;
+}
+
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    padding: 70px;
+
+}
+
+.text-box h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text-box p{
+    font-size: 14px;
+    margin: 0 10px;
+}
+
+.btn-hero{
+    font-size: 13px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0;
+    padding: 3px;
+
+}
+
+.btn-hero:hover{
+    border-color: #fff;
+    background-color: cornflowerblue;
+    transition: 1s;
+    
+}
+
+
+.course h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.course p{
+    font-size: 14px;
+    color: #777;
+}
+
+.course-content{
+    margin: 0 135px;
+}
+
+.course-content p{
+    text-align: justify;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+.course-content h5{
+    text-align: center;
+   
+}
+
+.course-content .card{
+    background-color: #FFF3F3;
+    transition: 1s;
+}
+
+.course-content .card:hover{
+    box-shadow: 0px 0px 10px #000;
+}
+
+.campus-content{
+    margin: 0 135px;
+}
+
+.campus-image{
+    position: relative;
+}
+
+
+.campus-image img{
+    border-radius: 10px;
+}
+
+.layer{
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.layer-content h3{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    color: #fff;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s;
+}
+.campus-image:hover .layer{
+    opacity: .5;
+    transition: .5s;
+}
+.campus-image:hover .layer-content h3{
+    opacity: 1;
+    bottom: 45%;
+}
+
+.facilities-content{
+    margin: 0 135px;
+}
+
+.facilities-content .card{
+    border: none;
+}
+.card-body h5{
+    margin-top: 20px;
+}
+.card-body p{
+    color: #777;
+    text-align: justify;
+}
+
+.student p{
+    color: #777;
+    font-size: 14px;
+}
+
+.testtimonial{
+    margin: 0px 135px;
+}
+.testtimonial-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.testtimonial-area{
+    
+    padding: 20px;
+
+}
+
+.testtimonial-content p,h4{
+    text-align: justify;
+}
+
+.star{
+    text-align: left;
+}
+
+.cta{
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../image/banner2.jpg);
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.cta-content{
+   margin-top: 100px;
+}
+
+
+.cta-content h1{
+   color: #fff;
+ }
+
+ .cta-content .btn-hero{
+    border-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+ }
+
+
+ .about{
+    margin: 0 135px;
+    text-align: center;
+ }
+
+ 
+ 
+ .about p{
+    font-size: 14px;
+    color: #777;
+ }
+
+ 
+ .about i{
+    color: blue;
+ }
+
+ .me{
+    color: #777;
+ }
+
+ .blog-box{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 5%;
+    padding: 70px;
+
+}
+
+.header-blog{
+    text-align: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(../image/background.jpg);
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ .blog-box h1{
+    font-size: 40px;
+    font-weight: 700;
+    
+ }
+
+.sub-header{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../image/background.jpg);
+
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.about-us{
+    margin: 0 135px;
+}
+
+.about-us h1{
+    font-size: 28px;
+}
+
+.about-us p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.about-btn{
+    padding: 15px 60px;
+    font-size: 18px;
+    font-weight: 500;
+    color: mediumturquoise;
+    border-radius: 0;
+}
+
+
+.course-content-text{
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../image/background.jpg);
+
+    min-height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.blog{
+    padding: 0 135px;
+}
+
+.blog-content h3{
+    font-size: 44px;
+}
+
+.blog-content p{
+    font-size: 14px;
+    color: #777;
+    text-align: justify;
+}
+
+.comment-from h4{
+    margin-left: 20px;
+}
+
+.comment-from input, .textarea{
+    border: 0 ;
+    padding: 10px ;
+    margin: 20px ;
+    border-radius: 0 ;
+    width: 90% ;
+    background-color: aquamarine ;
+    color: #000 ;
+}
+
+.comment-from input:focus{
+    background-color: #777;
+}
+
+
+.comment-from textarea:focus{
+    background-color: #777;
+    height: 300px;
+}
+
+.cat-heading{
+    background-color: orangered;
+    height: 45px;
+}
+
+.cat-heading h3{
+    line-height: 45px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.contact{
+    padding: 0 135px;
+}
+
+.item {
+    margin: 15px;
+}
+
+.item i{
+    color: red;
+}
+
+.item h4{
+
+    font-size: 18px;
+}
+
+.item span{
+
+}
+
+.map iframe{
+    width: 100%;
+}
+
+.c-mr-0{
+    margin-right: 0;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:450px) { 
+    .c-none{
+        display: none;
+    }
+
+    .header{
+        height: 500px;
+        min-height: 500px;
+    }
+
+    .ps-10{
+        padding-left: 2rem;
+    }
+
+    .menu{
+        position: absolute;
+        top: 40px;
+        z-index: 99;
+    }
+
+
+    .navbar-toggler{
+        background-color: #fff;
+    }
+
+    .text-box{
+            top: 10%;
+            
+    }
+    .text-box h1{
+        font-size: 20px;
+    }
+
+
+    .course h1{
+        font-size: 30px;
+    }
+
+    .course p{
+        text-align: justify;
+        padding: 0 30px;
+    }
+
+    .mx-15{
+        margin: 0 15px;
+    }
+
+    .my-10{
+        margin: 10px 0;
+    }
+
+    .sub-header img{
+        height: 55px;
+    }
+
+    .blog{
+        padding: 0px 35px;
+    }
+
+    .blog-content h3{
+        font-size: 20px;
+    }
+
+    .category-list-m{
+        position: relative;
+        top: -445px;
+    }
+
+    .comment-from-m{
+        position: relative;
+        top: 315px;
+    }
+
+    .contact {
+        padding: 0 35px;
+    }
+
+    .item h4{
+        font-size: 14px;
+    }
+
+
+    .item span{
+        font-size: 10px;
+    }
+}
